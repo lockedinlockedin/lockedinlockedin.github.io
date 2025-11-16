@@ -1,12 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>GetSongBPM backlink</title>
+  <meta charset="utf-8">
+  <title>Backlink for GetSongBPM</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Explicit canonical to make link-checkers happy -->
+  <link rel="canonical" href="https://lockedinlockedin.github.io/">
+  <meta name="description" content="Public page containing a backlink to getsongbpm.com required for API access.">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;padding:3rem;background:#f7f7f7;color:#111}
+    main{max-width:700px;margin:0 auto;background:#fff;padding:2rem;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.05)}
+    a.backlink{display:inline-block;padding:.5rem .75rem;border-radius:6px;background:#f0f4ff;text-decoration:none;font-weight:600}
+    footer{margin-top:1.25rem;font-size:.9rem;color:#444}
+  </style>
 </head>
 <body>
-    <p>This site includes a backlink required for API use.</p>
+  <main>
+    <h1>Backlink for GetSongBPM</h1>
+
+    <p>This public page intentionally contains a visible backlink to <strong>GetSongBPM</strong> for API validation.</p>
+
+    <!-- Visible, full-URL anchor text (use HTTPS and include the domain in the text) -->
     <p>
-        <a href="https://getsongbpm.com" target="_blank">GetSongBPM</a>
+      <a class="backlink" href="https://getsongbpm.com" target="_blank" rel="noopener noreferrer">
+        https://getsongbpm.com
+      </a>
     </p>
+
+    <!-- Plain text fallback so simple scrapers can find the domain even without parsing anchors -->
+    <p>If an automatic checker does not detect the link, the domain appears here as plain text: getsongbpm.com</p>
+
+    <footer>
+      Page hosted on GitHub Pages at <span id="site-url">https://your-username.github.io/</span>.
+    </footer>
+  </main>
 </body>
 </html>
